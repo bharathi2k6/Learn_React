@@ -29,13 +29,13 @@ const userReducer = (state = initialValue,action) => {
   case INTERNAL_USER:
      return {
       ...state,
-      stateValue:'User form socgen'
+      stateValue:'User form mydomain'
      }
   break;
   case EXTERNAL_USER:
     return {
       ...state,
-      stateValue:'User from Cognizant'
+      stateValue:'User from other company'
      }    
   break;
   default:
